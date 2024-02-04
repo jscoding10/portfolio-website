@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   color: #0165fc;
-  /* #94f474 */
 }
 
 h3 {
@@ -28,7 +27,6 @@ html {
 
 /* Paragraph element color */
 p {
-  /* color: rgb(85, 85, 85); */
   color: #b9c1c9;
 }
 
@@ -60,7 +58,6 @@ nav {
 
 /* Link element in Navbar */
 a {
-  /* color: black; */
   color: #b9c1c9;
   text-decoration: none;
   text-decoration-color: white;
@@ -78,7 +75,7 @@ a:hover {
   font-size: 2rem;
 }
 
-.logo:hover {
+.logo:hover { 
   cursor: default;
 }
 
@@ -105,7 +102,6 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  /* background-color: black; */
   background-color: #b9c1c9;
   transition: all 0.3 ease-in-out;
 }
@@ -126,7 +122,6 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  /* color: black; */
   color: #b9c1c9;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -394,7 +389,6 @@ section {
 article {
   display: flex;
   width: 10rem;
-  /* justify-content: space-around; */
   justify-content: flex-start;
   gap: 0.5rem;
 }
@@ -422,12 +416,10 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  /* color: black; */
   color: #000010;
 }
 
 .project-btn {
-  /* color: black; */
   color: #000010;
   border-color: rgb(163, 163, 163);
 }
